@@ -39,60 +39,61 @@
     }
 
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?xylgq8');
-  src:  url('../fonts/icomoon.eot?xylgq8#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?xylgq8') format('truetype'),
-    url('../fonts/icomoon.woff?xylgq8') format('woff'),
-    url('../fonts/icomoon.svg?xylgq8#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?xm7i4');
+    src:  url('fonts/icomoon.eot?xm7i4#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?xm7i4') format('truetype'),
+    url('fonts/icomoon.woff?xm7i4') format('woff'),
+    url('fonts/icomoon.svg?xm7i4#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+    }
+    
 [class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-facebook:before {
-  content: "\e902";
-}
-.icon-heartbeat:before {
-  content: "\e903";
-}
-.icon-trophy:before {
-  content: "\e904";
-}
-.icon-bubble:before {
-  content: "\e905";
-}
-.icon-chronometer:before {
-  content: "\e900";
-}
-.icon-directions_run:before {
-  content: "\e906";
-}
-.icon-add_shopping_cart:before {
-  content: "\e901";
-}
-.icon-instagram:before {
-  content: "\ea92";
-}
-.icon-pinterest2:before {
-  content: "\ead2";
-}
-.icon-truck:before {
-  content: "\e9b0";
-}
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    
+      /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .icon-facebook:before {
+      content: "\e902";
+    }
+    .icon-heartbeat:before {
+      content: "\e903";
+    }
+    .icon-trophy:before {
+      content: "\e904";
+    }
+    .icon-bubble:before {
+      content: "\e905";
+    }
+    .icon-chronometer:before {
+      content: "\e900";
+    }
+    .icon-directions_run:before {
+      content: "\e906";
+    }
+    .icon-truck:before {
+      content: "\e9b0";
+    }
+    .icon-truck:before {
+      content: "\e9b0";
+    }
+    .icon-instagram:before {
+      content: "\ea92";
+    }
+    .icon-pinterest2:before {
+      content: "\ead2";
+    }
+    
 
