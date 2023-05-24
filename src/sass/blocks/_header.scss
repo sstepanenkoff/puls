@@ -3,7 +3,8 @@
     justify-content: space-between;
     align-items: center;
     &__logo {
-        width: 250px;
+        margin-bottom: 15px;
+        width: 170px;
         img {
             width: 100%;
         }
@@ -20,8 +21,8 @@
     }
     &__phone {
         display: block;
-        font-weight: 700;
-        font-size: 18px;
+        font-weight: 300;
+        font-size: 17px;
         color: #FFFFFF;
         text-decoration: none;
         :hover {
