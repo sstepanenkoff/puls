@@ -2,11 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     &__logo {
-        margin-bottom: 15px;
-        width: 170px;
+        width: 200px;
         img {
-            width: 100%;
+            width: 170px;
         }
     }
     &__official {
