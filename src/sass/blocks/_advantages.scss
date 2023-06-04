@@ -4,15 +4,7 @@
     &__wrapper {
         display: flex;
         flex-direction: column;
-        align-items: center;
-    }
-    &__label {
-        margin-top: 70px;
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 30px;
-        text-align: center;
-        color: #0D0D0D;
+        // align-items: center;
     }
     &__icons {
         margin-top: 60px;
@@ -67,3 +59,23 @@
         }
     }
 }
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .icon-puls {
+    animation: pulse 1.2s ease-in-out infinite;
+  }
+  
