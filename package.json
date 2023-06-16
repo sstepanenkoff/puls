@@ -17,6 +17,7 @@
     "gulp-sass": "^5.1.0"
   },
   "dependencies": {
+    "jshint": "^2.13.6",
     "sass": "^1.62.1"
   }
 }

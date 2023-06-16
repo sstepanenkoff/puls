@@ -90,15 +90,16 @@
     .promo {
         padding: 0;
         .header {
-            margin: 0 15px 0 15px;
-            padding-top: 10px;
+            margin: 0 20px 0 20px;
+            padding-top: 15px;
             &__contacts {
                 margin-top: 12px;
             }
             &__phone {
-                font-size: 13px;
+                font-size: 14px;
                 color: #f85656;
                 // color: $blue-color;
+                // color: #FFFFFF;
             }
             &__logo {
                 width: 140px;
@@ -130,21 +131,23 @@
             display: none;
         }
         &_main {
+            margin-top: 100px;
             width: 180px;
             height: 40px;
             font-size: 12px;
         }
     }
     .consultation {
+        padding: 70px 0 80px 0;
         .title {
-            font-size: 28px;
+            font-size: 26px;
             line-height: 40px;
         }
         &__descr {
-            font-size: 18px !important;
+        font-size: 18px;
         }
         .feed-form {
-            width: 280px;
+            width: 290px;
         }
     }
 }
