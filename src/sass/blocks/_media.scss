@@ -85,6 +85,11 @@
         }
         
     }
+    .carousel {
+        &__inner {
+            width: 500px;
+        }
+    }
 }
 @media (max-width: 576px) {
     .promo {
@@ -98,8 +103,6 @@
             &__phone {
                 font-size: 14px;
                 color: #f85656;
-                // color: $blue-color;
-                // color: #FFFFFF;
             }
             &__logo {
                 width: 140px;
@@ -148,6 +151,17 @@
         }
         .feed-form {
             width: 290px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 300px;
+        }
+        .slick-dots {
+            width: 60px;
+            li {
+                width: 12px;
+            }
         }
     }
 }

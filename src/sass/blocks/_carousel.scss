@@ -25,5 +25,37 @@
         right: -66px;
         left: auto;
     }
-}
+    
+	.carousel__inner ul {
+		padding: 0;
+	}
+	.slick-dots {
+		margin: 0 auto;
+		width: 70px;
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		li {
+			margin: 0 auto;
+			list-style-type: none;
+			width: 34px;
+		}
+	}
 
+	.slick-dot {
+		// margin-left: 10px;
+		padding: 0;
+		width: 15px;
+		height: 2px;
+		border: none;
+		border-radius: 20px;
+		background-color: #bdbdbd;
+	}
+
+	.slick-active {
+		button {
+			background-color: #484848;
+		}
+	}
+}
