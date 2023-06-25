@@ -7,6 +7,16 @@
             text-align: center;
             align-items: center;
         }
+        &__link {
+            a {
+                &:hover {
+                    color: #FFFFFF;
+                }
+                &:hover::after {
+                    transform: scaleX(1);
+                  }
+            }
+        }
     }
     .advantages {
         &__icon {
@@ -17,6 +27,14 @@
         }
         &__descr {
             margin-top: 5px;
+            a {
+                &:hover {
+                    color: #ff0000;
+                }
+                &:hover::after {
+                    transform: scaleX(1);
+                  }
+            }
         }
     }
     .consultation {
@@ -33,6 +51,26 @@
         .feed-form {
             margin: 0 auto;
             margin-top: 30px;
+        }
+    }
+    .carousel {
+        padding: 80px 0 30px 0;
+    }
+    .catalog {
+        &__tab {
+            width: 92px;
+            height: 32px;
+            font-size: 12px;
+            line-height: 28px;
+        }
+        &__content {
+            margin: 60px 5px 0 5px;
+        }
+    }
+    .button {
+        &:hover {
+            color: #FFFFFF;
+            transform: translateY(0);
         }
     }
 }
@@ -60,18 +98,15 @@
             font-size: 12px;
             a {
                 font-size: 12px;
-                &:hover {
-                    color: #FFFFFF;
-                }
             }
         }
     }
-    .button {
-        &_main {
-            width: 250px;
-            font-size: 14px;
-        }
-    }
+    // .button {
+    //     &:hover {
+    //         color: #FFFFFF;
+    //         transform: translateY(0);
+    //     }
+    // }
     .advantages {
         &__icons {
             margin-top: 60px;
@@ -162,6 +197,12 @@
             li {
                 width: 12px;
             }
+        }
+    }
+    .catalog {
+        .title {
+            margin-top: 50px;
+            font-size: 26px;
         }
     }
 }
