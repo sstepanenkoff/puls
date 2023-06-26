@@ -101,12 +101,6 @@
             }
         }
     }
-    // .button {
-    //     &:hover {
-    //         color: #FFFFFF;
-    //         transform: translateY(0);
-    //     }
-    // }
     .advantages {
         &__icons {
             margin-top: 60px;
@@ -123,6 +117,29 @@
     .carousel {
         &__inner {
             width: 500px;
+        }
+    }
+    .review {
+        &__item {
+            display: block;
+            position: relative;
+            img {
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                margin-left: 20px;
+            }
+        }
+        &__contact {
+            margin-left: 65px;
+        }
+        &__descr {
+            margin: 0;
+            margin: 0 20px 0 20px;
+            max-width: 750px;
+        }
+        &__text {
+            margin: 5px 20px 0 65px;
         }
     }
 }
@@ -200,9 +217,36 @@
         }
     }
     .catalog {
+        padding-bottom: 80px;
         .title {
             margin-top: 50px;
             font-size: 26px;
         }
+    }
+    .review {
+        .title {
+            font-size: 26px;
+        }
+        &__item {
+            margin-top: 50px;
+        }
+        img {
+            margin: 0;
+            margin-left: 10px;
+            width: 45px;
+            height: 45px;
+        }
+        &__descr {
+            margin: 0;
+        }
+        &__name {
+            font-size: 16px;
+            font-weight: 700;
+        }
+        &__text {
+            font-size: 14px;
+            margin: 5px 10px 0 65px;
+        }
+        
     }
 }
