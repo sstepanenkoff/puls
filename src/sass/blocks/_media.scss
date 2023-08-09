@@ -73,6 +73,11 @@
             transform: translateY(0);
         }
     }
+    .footer {
+        &__info {
+            top: 270px;
+        }
+    }
 }
 @media (max-width: 767px) {
     .promo {
@@ -140,6 +145,17 @@
         }
         &__text {
             margin: 5px 20px 0 65px;
+        }
+    }
+    .footer {
+        &__info {
+            top: 100%;
+            width: 100%;
+            // width: 320px;
+            height: 200px;
+        }
+        &__phone {
+            font-size: 18px;
         }
     }
 }
