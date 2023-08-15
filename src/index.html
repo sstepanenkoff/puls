@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>puls</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
@@ -22,8 +22,8 @@
                     <span>Garmin, Polar, Suunto</span>
                 </div>
                 <div class="header__contacts">
-                    <a href="tel:+7123456789" class="header__phone">+49 (160) 123 45 67</a>
-                    <button class="button button_hiden">request a call</button>
+                    <a href="tel:+491601234567" class="header__phone">+49 (160) 123 45 67</a>
+                    <button data-modal="consultation" class="button button_hiden">request a call</button>
                 </div>
             </header>
 
@@ -46,9 +46,9 @@
                     </div>
                 </div>
 
-                <button class="button button_main">book a consultation</button>
+                <button data-modal="consultation" class="button button_main">book a consultation</button>
                 <div class="promo__link">or 
-                    <a href="#">GO TO CATALOG</a>
+                    <a href="#catalog">GO TO CATALOG</a>
                 </div>
             </div>
         </div>
@@ -127,7 +127,7 @@
         </div>
     </section>
 
-    <section class="catalog">
+    <section id="catalog" class="catalog">
         <div class="container">
             <h2 class="title">
                 heart rate monitor catalogue
@@ -525,7 +525,7 @@
         </div>
         <div class="footer__info">
             <address class="footer__addr">Karmarschstraße 49, 30159 Hannover</address>
-            <a class="footer__phone" href="tel:+7123456789">+49 (160) 123 45 67</a>
+            <a class="footer__phone" href="tel:+491601234567">+49 (160) 123 45 67</a>
             <div class="footer__social">
                 <a href="#" class="footer__social-item"><img src="icons/facebook.svg" alt="facebook"></a>
                 <a href="#" class="footer__social-item"><img src="icons/instagram.svg" alt="instagram"></a>
@@ -555,7 +555,7 @@
                 <input name="name" required placeholder="Name" type="text">
                 <input name="phone" required placeholder="Phone number" type="number">
                 <input name="email" required placeholder="E-mail" type="email">
-                <button class="button button_submit">buy</button>
+                <button class="button button_submit">order this product</button>
             </form>
         </div>
 
