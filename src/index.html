@@ -102,9 +102,9 @@
                 Just fill out the application form <br> and we will call you back within 10 minutes
             </div>
 
-            <form class="feed-form" action="#">
+            <form id="consultation-form" class="feed-form" action="#">
                 <input name="name" required placeholder="Name" type="text">
-                <input name="phone" required placeholder="Phone number" type="number">
+                <input name="phone" required placeholder="Phone number">
                 <input name="email" required placeholder="E-mail" type="email">
                 <button class="button button_submit">book a consultation</button>
             </form>
@@ -540,9 +540,9 @@
             <div class="modal__subtitle">Just fill out the application form</div>
             <div class="modal__descr">and we will call you back within 10 minutes</div>
             <form class="feed-form feed-form_mt25" action="#">
-                <input name="name" required placeholder="Name" type="text">
-                <input name="phone" required placeholder="Phone number" type="number">
-                <input name="email" required placeholder="E-mail" type="email">
+                <input name="name" placeholder="Name" type="text">
+                <input name="phone" placeholder="Phone number">
+                <input name="email" placeholder="E-mail" type="email">
                 <button class="button button_submit">book a consultation</button>
             </form>
         </div>
@@ -553,7 +553,7 @@
             <div class="modal__descr">heart rate Polar M430</div>
             <form class="feed-form feed-form_mt25" action="#">
                 <input name="name" required placeholder="Name" type="text">
-                <input name="phone" required placeholder="Phone number" type="number">
+                <input name="phone" required placeholder="Phone number">
                 <input name="email" required placeholder="E-mail" type="email">
                 <button class="button button_submit">order this product</button>
             </form>
@@ -569,6 +569,8 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

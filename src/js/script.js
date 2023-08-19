@@ -55,4 +55,27 @@ $(document).ready(function(){
             $('.overlay, #order').fadeIn('slow');
         });
     });
+
+
+    function valideForms(form){
+        $(form).validate({
+            rules: {
+                name: "required",
+                phone: {
+                    required: true,
+                    minlength: 7
+                  },
+                email: {
+                    required: true,
+                    email: true
+                }
+            }
+        });
+    }
+    
+    valideForms('#consultation-form');
+    valideForms('#consultation form');
+    valideForms('#order form');
+
+    $('input[name=phone]').mask("+99 (999) 999-999-9");
 });
