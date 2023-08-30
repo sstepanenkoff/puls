@@ -161,6 +161,9 @@
             font-size: 18px;
         }
     }
+    .pageup {
+        visibility: hidden;
+    }
 }
 @media (max-width: 576px) {
     .promo {
